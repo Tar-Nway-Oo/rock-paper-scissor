@@ -19,11 +19,51 @@ body {
    width: 30%;
 }
 
-.header h1,
-.header p {
-   text-align: center;
+.header {
+   margin: 0;
+   padding: 1em;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
+
+
 
 .dark-mode {
    margin: 0 auto;
+   background-color: black;
+   color: antiquewhite;
+   border: 1px solid rgb(189, 175, 158);
+   padding: .5em;
+}
+
+.dark {
+   background-color: rgb(48, 45, 45);
+   color: beige;
+}
+
+.start {
+   margin: 0 auto;
+   padding: 1em;
+   border-radius: .3em;
+   background-color: rgb(106, 134, 125);
+}
+
+.main {
+   padding: 1em;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: flex-start;
+   gap: 1em;
+}
+
+.submit {
+   align-self: center;
+   background-color: rgb(98, 98, 168);
+   padding: .5em;
+}
+
+.warning {
+   color: rgb(129, 33, 33);
 }
