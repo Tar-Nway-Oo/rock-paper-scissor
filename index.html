@@ -1,45 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Rock Paper Scissor</title>
-  </head>
-  <body>
-    <div class="container">
-      <header class="header">
-         <div>
-        <h1>Rock Paper Scissor</h1>
-        <p>play your favorite childhood game.</p>
-        </div>
-        <button class="dark-mode">Dark Mode</button>
-      </header>
-      <input type="text" class="input" placeholder="name">
-      <button class="start">Start</button>
-      <main class="main">
-        <img
-          src="https://i.redd.it/9h0djr2uaxnz.jpg"
-          alt="rock"
-          class="image"
-          id="rock"
-        />
-        <img
-          src="https://thumbs.dreamstime.com/b/old-paper-sheet-white-shadow-35056911.jpg"
-          alt="paper"
-          class="image"
-          id="paper"
-        />
-        <img
-          src="https://static.vecteezy.com/system/resources/previews/003/808/404/non_2x/scissors-icon-for-web-presentation-logo-infographic-haircut-tailor-hairdresser-haircut-free-vector.jpg"
-          alt="scissor"
-          class="image"
-          id="scissor"
-        />
-        <button class="submit">Submit</button>
-      </main>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Rock Paper Scissor</title>
+</head>
+<body>
+  <main class="main">
+    <div>
+    <img src="./images/rock.png" data-type="rock" alt="rock" class="button">
+    <img src="./images/paper.png" data-type="paper" alt="paper" class="button">
+    <img src="./images/scissor.png" data-type="scissor" alt="scissor" class="button">
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="main.js"></script>
-  </body>
+    <img src="./images/computer.png" alt="computer" class="computer">
+  </main>
+  <h3 class="output"></h3>
+  <script src="script.js"></script>
+</body>
 </html>
