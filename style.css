@@ -3,6 +3,17 @@ body {
    background-color: rgb(52, 70, 24);
 }
 
+.header {
+   text-align: center;
+   letter-spacing: .3em;
+   color:rgb(227, 235, 241)
+}
+
+.header p {
+   margin-bottom: 2em;
+   font-style: italic;
+}
+
 .main {
    width: 80%;
    margin: 0 auto;
@@ -16,13 +27,18 @@ body {
    margin: .5em;
 }
 
+.button:hover {
+   opacity: 0.7;
+}
+
 .selected {
-   border: 5px solid rgb(140, 201, 27);
+   border: 7px solid rgb(140, 201, 27);
    border-radius: 50%;
 }
 
 .output {
+   text-align: center;
    padding: .3em;
-   margin-left: 30%;
    font-size: 2rem;
+   color: white;
 }
